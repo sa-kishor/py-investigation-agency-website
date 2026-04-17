@@ -1,6 +1,7 @@
 export const coveredCities = [
   'Pondicherry',
   'Tamil Nadu',
+  'Bangalore',
 ]
 
 export const locationIntro = [

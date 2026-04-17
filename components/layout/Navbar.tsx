@@ -73,7 +73,7 @@ export default function Navbar() {
           />
           <span>
             <span className="block text-xs font-bold tracking-[0.2em] text-brand-white sm:text-sm">
-              PY INTELLIGENCE
+              PY INVESTIGATION
             </span>
             <span className="block text-[10px] font-semibold tracking-[0.3em] text-brand-gold sm:text-xs">
               AGENCY

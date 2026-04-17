@@ -15,4 +15,5 @@ export const SITE = {
 export const NAV_LOCATIONS = [
   'Pondicherry',
   'Tamil Nadu',
+  'Bangalore',
 ]

@@ -34,7 +34,7 @@ export default function Footer() {
               className="h-12 w-auto object-contain"
             />
             <span>
-              <span className="block text-sm font-bold tracking-[0.2em] text-brand-white">PY INTELLIGENCE</span>
+              <span className="block text-sm font-bold tracking-[0.2em] text-brand-white">PY INVESTIGATION</span>
               <span className="block text-xs font-semibold tracking-[0.25em] text-brand-gold">AGENCY</span>
             </span>
           </Link>

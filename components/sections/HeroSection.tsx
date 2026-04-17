@@ -60,7 +60,11 @@ export default function HeroSection() {
           <GoldButton href="/contact" className="px-8 py-4">
             Start Investigation →
           </GoldButton>
-          <GoldButton href={`tel:${CONTACT.phone}`} variant="outline" className="px-8 py-4">
+          <GoldButton
+            href={`tel:${CONTACT.phone}`}
+            variant="outline"
+            className="border-[#25D366] px-8 py-4 text-[#25D366] hover:bg-[#25D366] hover:text-brand-black"
+          >
             Call Now
           </GoldButton>
         </motion.div>
