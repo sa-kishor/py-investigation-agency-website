@@ -39,10 +39,11 @@ const services = [
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const id = parseInt(params.id);
-  const service = services.find(s => s.id === id);
+  const { id } = await params;
+  const numId = parseInt(id);
+  const service = services.find(s => s.id === numId);
 
   if (!service) {
     return NextResponse.json(
